@@ -72,7 +72,7 @@ $arrDates = [
 <ul>
     <?php foreach($arrDates as $date => $valueDate){ ?>
       <li>
-       <?php echo $date . $valueDate ?>
+       <?php echo $date ?>
        <ul>
         <?php foreach ($valueDate as $data){?>
           <li><?php echo "Titolo: " . $data['title'] . ", autore: " . $data['author'] . ", testo: " . $data['text'] ?></li>
